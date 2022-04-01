@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+    <script>
+    function ledon(){
+        window.location.href='http://127.0.0.1:5000/led/on'
+    }
+    function ledoff(){
+        window.location.href='http://127.0.0.1:5000/led/off'
+    }
+    function sel(){
+        window.location.href='http://127.0.0.1:5000/select'
+    }
+    </script>
+
+    <input type=button value=ledon onclick='ledon()'>
+    <input type=button value=ledoff onclick='ledoff()'>
+    <input type=button value=sel onclick='sel()'>
+</body>
+</html>
